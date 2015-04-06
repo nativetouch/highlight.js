@@ -4,8 +4,13 @@ Intellij Idea-like styling (c) Vasily Polovnyov <vast@whiteants.net>
 
 */
 
-.diff.line .right.line.content .delta, .diff.line:not(.keep) .right.line.wrapper{
-  background-color: rgba(91,220,114,.30) !important;
+
+.diff.line:not(.keep) .left.line.wrapper, .diff.line .left.line.content .delta {
+  background-color: rgba(240, 92, 92, 0.30) !important;
+}
+
+.diff.line:not(.keep) .right.line.wrapper, .diff.line .right.line.content .delta {
+  background-color: rgba(91, 220, 114, 0.30) !important;
 }
 
 .hljs {

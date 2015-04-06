@@ -4,6 +4,10 @@ Intellij Idea-like styling (c) Vasily Polovnyov <vast@whiteants.net>
 
 */
 
+.diff.line .right.line.content .delta, .diff.line:not(.keep) .right.line.wrapper{
+  background-color: rgba(91,220,114,.35) !important;
+}
+
 .hljs {
   display: block;
   overflow-x: auto;
